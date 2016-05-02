@@ -9,10 +9,16 @@
 	],
 	"homepage": "http://framework.zend.com/",
 	"license": "BSD-3-Clause",
+	"repositories": [
+		{
+            		"type": "vcs",
+            		"url": "https://github.com/Alustau/zend-locale"
+        	}
+    ],
 	"require": {
 		"php": ">=5.2.11",
 		"zf1/zend-exception": "self.version",
-		"zf1/zend-locale": "self.version"
+		"alustau/zend-locale": "dev-master"
 	},
 	"autoload": {
 		"psr-0": {
